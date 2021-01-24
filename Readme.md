@@ -20,5 +20,24 @@ I test the code with the following packages. Other versions may also work, but I
 ## Citations
 If you use the code and datasets, please cite the following paper:  
 ```
-
+@inproceedings{ZhuNZDD21,
+  author    = {Yutao Zhu and
+               Jian{-}Yun Nie and
+               Kun Zhou and
+               Pan Du and
+               Zhicheng Dou
+               },
+  editor    = {Djoerd Hiemstra and
+               Maria-Francine Moens and
+               Josiane Mothe and
+               Raffaele Perego and
+               Martin Potthast and
+               Fabrizio Sebastiani},
+  title     = {Content Selection Network for Document-grounded Retrieval-based Chatbots},
+  booktitle = {Advances in Information Retrieval - 43rd European Conference on {IR}
+               Research, {ECIR} 2021, Lucca, Italy, March 28-April 1, 2021, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  publisher = {Springer},
+  year      = {2021},
+}
 ```
