@@ -36,7 +36,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run.py
 Parameters:
 ```
 --level, "word" (default)/"sentence", the selection level
---is_training, True/False, train or test the model
+--is_training, True (default)/False, train or test the model
 --batch_size, 15 (default for PersonaChat), 80 (default for CMUDoG)
 --gru_hidden, 300 (defult), the hidden size of RNN
 --emb_size, 400 (default for PersonaChat), 300 (default for CMUDoG), the embedding size
