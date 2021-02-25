@@ -22,11 +22,15 @@ We test the code with the following packages. <br>
 2. Unzip PersonaChat_data.zip and move all files into /PersonaChat/data/
 3. Unzip CMUDoG_data.zip and move all files into /CMUDoG/data/
 
-For PersonaChat:
+For PersonaChat: <br>
+```
 CUDA_VISIBLE_DEVICES=0 python3 run.py
+```
 
-For CMUDoG:
+For CMUDoG: <br>
+```
 CUDA_VISIBLE_DEVICES=0 python3 run.py
+```
 
 ## Citations
 If you use the code and datasets, please cite the following paper:  
