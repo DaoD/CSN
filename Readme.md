@@ -24,13 +24,31 @@ We test the code with the following packages. <br>
 
 For PersonaChat: <br>
 ```
-CUDA_VISIBLE_DEVICES=0 python3 run.py
+CUDA_VISIBLE_DEVICES=0 python3 run.py --task both_original
+CUDA_VISIBLE_DEVICES=0 python3 run.py --task both_revised
 ```
 
 For CMUDoG: <br>
 ```
 CUDA_VISIBLE_DEVICES=0 python3 run.py
 ```
+
+Parameters:
+```
+--level, "word" (default)/"sentence", the selection level
+--is_training, True/False, train or test the model
+--batch_size, 15 (default for PersonaChat), 80 (default for CMUDoG)
+--gru_hidden, 300 (defult), the hidden size of RNN
+--emb_size, 400 (default for PersonaChat), 300 (default for CMUDoG), the embedding size
+--learning_rate, 1e-3 (defult), the learning rate
+--gamma, 0.3 (default), the filter threshold 
+--decay, 0.9 (default), the decay factor
+--epochs, 5 (default for PersonaChat), 8 (default for CMUDoG), the number of training epochs
+--save_path, "./checkpoint/" (default), the path to save model
+--score_file_path, "score_file.txt" (default), the path to save results
+--log_path, "./log/" (default), the path to save log 
+```
+
 
 ## Citations
 If you use the code and datasets, please cite the following paper:  
