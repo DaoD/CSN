@@ -13,9 +13,9 @@ Grounding human-machine conversation on a document is an effective way to improv
 Authors: Yutao Zhu, Jian-Yun Nie, Kun Zhou, Pan Du, Zhicheng Dou
 
 ## Requirements
-I test the code with the following packages. Other versions may also work, but I'm not sure. <br>
+We test the code with the following packages. <br>
 - Python 3.5 <br>
-- PyTorch 1.3 (with GPU support)<br>
+- PyTorch 1.3.1 (with GPU support)<br>
 
 ## Usage
 
