@@ -18,7 +18,15 @@ We test the code with the following packages. <br>
 - PyTorch 1.3.1 (with GPU support)<br>
 
 ## Usage
+1. Download the data from the [link](https://drive.google.com/drive/folders/1-lBPcEG1NfJa3CBfWgmk4r-W30dmuOoh?usp=sharing)
+2. Unzip PersonaChat_data.zip and move all files into /PersonaChat/data/
+3. Unzip CMUDoG_data.zip and move all files into /CMUDoG/data/
 
+For PersonaChat:
+CUDA_VISIBLE_DEVICES=0 python3 run.py
+
+For CMUDoG:
+CUDA_VISIBLE_DEVICES=0 python3 run.py
 
 ## Citations
 If you use the code and datasets, please cite the following paper:  
