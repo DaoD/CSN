@@ -59,19 +59,23 @@ If you use the code and datasets, please cite the following paper:
                Jian{-}Yun Nie and
                Kun Zhou and
                Pan Du and
-               Zhicheng Dou
-               },
+               Zhicheng Dou},
   editor    = {Djoerd Hiemstra and
-               Maria-Francine Moens and
+               Marie{-}Francine Moens and
                Josiane Mothe and
                Raffaele Perego and
                Martin Potthast and
                Fabrizio Sebastiani},
-  title     = {Content Selection Network for Document-grounded Retrieval-based Chatbots},
+  title     = {Content Selection Network for Document-Grounded Retrieval-Based Chatbots},
   booktitle = {Advances in Information Retrieval - 43rd European Conference on {IR}
-               Research, {ECIR} 2021, Lucca, Italy, March 28-April 1, 2021, Proceedings},
+               Research, {ECIR} 2021, Virtual Event, March 28 - April 1, 2021, Proceedings,
+               Part {I}},
   series    = {Lecture Notes in Computer Science},
+  volume    = {12656},
+  pages     = {755--769},
   publisher = {Springer},
   year      = {2021},
+  url       = {https://doi.org/10.1007/978-3-030-72113-8\_50},
+  doi       = {10.1007/978-3-030-72113-8\_50}
 }
 ```
