@@ -20,7 +20,7 @@ We test the code with the following packages. <br>
 - PyTorch 1.3.1 (with GPU support)<br>
 
 ## Usage - New
-1. Download the new data from the [link](https://drive.google.com/file/d/1kKh-1npyjaW6PvrBhILskBVcDuDhE66x/view?usp=sharing)
+1. Download the preprocessed data from the [link](https://drive.google.com/file/d/1kKh-1npyjaW6PvrBhILskBVcDuDhE66x/view?usp=sharing)
 2. Unzip the data.zip into /Updated/data/
 
 For PersonaChat: <br>
