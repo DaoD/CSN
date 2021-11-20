@@ -45,7 +45,7 @@ python3 runCSN.py --task cmudog --file_suffix self_original_fullSection
 
 * These results are obtained by training on four Tesla V100 GPUs.
 
-## Usage - Old Version
+## Usage - Old
 1. Download the data from the [link](https://drive.google.com/drive/folders/1-lBPcEG1NfJa3CBfWgmk4r-W30dmuOoh?usp=sharing)
 2. Unzip PersonaChat_data.zip and move all files into /PersonaChat/data/
 3. Unzip CMUDoG_data.zip and move all files into /CMUDoG/data/
