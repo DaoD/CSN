@@ -43,6 +43,8 @@ python3 runCSN.py --task cmudog --file_suffix self_original_fullSection
 | PersonaChat Revised  | 71.2 | 84.6 | 95.5 | 81.6 |
 | CMUDoG               | 78.7 | 89.3 | 97.1 | 86.6 | 
 
+* This result is obtained by training on four Tesla V100 GPUs.
+
 ## Usage - Old Version
 1. Download the data from the [link](https://drive.google.com/drive/folders/1-lBPcEG1NfJa3CBfWgmk4r-W30dmuOoh?usp=sharing)
 2. Unzip PersonaChat_data.zip and move all files into /PersonaChat/data/
