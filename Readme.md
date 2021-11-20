@@ -5,6 +5,7 @@
 #### News
 - 2021-3-18: We update the missing data file.
 - 2021-2-25: We upload all source code and data files!
+- 2021-11-20: We upload a new implementation of our method. It can achieve better performance!
 
 ## Abstract
 This repository contains the source code and datasets for the ECIR 2021 paper [Content Selection Network for Document-grounded Retrieval-based Chatbots](https://arxiv.org/pdf/2101.08426.pdf) by Zhu et al. <br>
@@ -18,7 +19,29 @@ We test the code with the following packages. <br>
 - Python 3.5 <br>
 - PyTorch 1.3.1 (with GPU support)<br>
 
-## Usage
+## Usage - New
+1. Download the new data from the [link]()
+2. Unzip the data.zip into /Updated/data/
+
+For PersonaChat: <br>
+```
+python3 runCSN.py --task personachat --file_suffix self_original
+python3 runCSN.py --task personachat --file_suffix self_revised
+```
+
+For CMUDoG: <br>
+```
+python3 runCSN.py --task cmudog --file_suffix self_original_fullSection
+```
+
+## Results (CSN-word) - New
+| Dataset              | R@1  | R@2  | R@5  | MRR  | 
+| -------------------- | ---- | ---- | ---- | ---- |
+| PersonaChat Original | 78.6 | 89.5 | 97.3 | 86.6 | 
+| PersonaChat Revised  | 71.2 | 84.6 | 95.5 | 81.6 |
+| CMUDoG               | 78.7 | 89.3 | 97.1 | 86.6 | 
+
+## Usage - Old Version
 1. Download the data from the [link](https://drive.google.com/drive/folders/1-lBPcEG1NfJa3CBfWgmk4r-W30dmuOoh?usp=sharing)
 2. Unzip PersonaChat_data.zip and move all files into /PersonaChat/data/
 3. Unzip CMUDoG_data.zip and move all files into /CMUDoG/data/
