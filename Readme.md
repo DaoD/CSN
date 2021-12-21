@@ -58,7 +58,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run.py --task both_revised
 
 For CMUDoG: <br>
 ```
-CUDA_VISIBLE_DEVICES=0 python3 run.py
+CUDA_VISIBLE_DEVICES=0 python3 run.py --task cmudog
 ```
 
 Parameters:
