@@ -52,8 +52,8 @@ python3 runCSN.py --task cmudog --file_suffix self_original_fullSection
 
 For PersonaChat: <br>
 ```
-CUDA_VISIBLE_DEVICES=0 python3 run.py --task both_original
-CUDA_VISIBLE_DEVICES=0 python3 run.py --task both_revised
+CUDA_VISIBLE_DEVICES=0 python3 run.py --file_suffix both_original
+CUDA_VISIBLE_DEVICES=0 python3 run.py --file_suffix both_revised
 ```
 
 For CMUDoG: <br>
