@@ -3,9 +3,9 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
 
 #### News
+- 2021-11-20: We upload a new implementation of our method. It can achieve better performance!
 - 2021-3-18: We update the missing data file.
 - 2021-2-25: We upload all source code and data files!
-- 2021-11-20: We upload a new implementation of our method. It can achieve better performance!
 
 ## Abstract
 This repository contains the source code and datasets for the ECIR 2021 paper [Content Selection Network for Document-grounded Retrieval-based Chatbots](https://arxiv.org/pdf/2101.08426.pdf) by Zhu et al. <br>
